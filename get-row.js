@@ -14,7 +14,7 @@ const getRow = function(namePokemon) {
   }
       return null;
 }
-
+console.log()
 
 
 
