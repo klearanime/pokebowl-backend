@@ -8,7 +8,7 @@ const getUrl = function(address) {
     }
       return null;
 }
-
+console.log()
 
 // OUR code here.
 
