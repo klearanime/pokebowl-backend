@@ -6,13 +6,13 @@ const pokemon = require('./pokemon.js');
 const { reduceRight } = require('./pokemon.js');
 
 
-const getRow = function(namePokemon) {
-  for ( const item of pokemon) {
-    if ( item[0] === namePokemon) {
+const getRow = function (namePokemon) {
+  for (const item of pokemon) {
+    if (item[0] === namePokemon) {
       return item
     }
   }
-      return null;
+  return null;
 }
 console.log()
 
